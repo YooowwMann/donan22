@@ -1,0 +1,22 @@
+{
+  "name": "DONAN22 - Download Software Gratis",
+  "short_name": "DONAN22",
+  "description": "Platform download software, aplikasi, game, dan tools gratis terpercaya di Indonesia",
+  "start_url": "/donan22/",
+  "display": "standalone",
+  "background_color": "#4f6beb",
+  "theme_color": "#4f6beb",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/donan22/assets/images/logo.png",
+      "sizes": "any",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ],
+  "categories": ["productivity", "utilities", "education"],
+  "lang": "id-ID",
+  "dir": "ltr",
+  "prefer_related_applications": false
+}

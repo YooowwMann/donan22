@@ -1,0 +1,42 @@
+﻿# DONAN22.COM - Robots.txt (Localhost Development)
+# Updated: October 15, 2025
+
+# XML Sitemaps
+Sitemap: http://localhost/donan22/sitemap.xml
+Sitemap: http://localhost/donan22/sitemap_dynamic.xml
+
+# Google Bot - Full Access
+User-agent: Googlebot
+Allow: /
+Disallow: /admin/
+Disallow: /includes/
+Disallow: /config*.php
+Crawl-delay: 0
+
+# Google Image Bot - Allow Images
+User-agent: Googlebot-Image
+Allow: /uploads/
+Allow: /assets/images/
+
+# Bing Bot
+User-agent: Bingbot
+Allow: /
+Disallow: /admin/
+Disallow: /includes/
+Crawl-delay: 1
+
+# All Other Bots
+User-agent: *
+Allow: /
+Disallow: /admin/
+Disallow: /includes/
+Disallow: /PHPMailer/
+Disallow: /logs/
+Disallow: /cache/
+Disallow: /backups/
+Disallow: /api/
+Disallow: /config*.php
+Disallow: /*?s=
+Disallow: /*&s=
+Disallow: /search?*
+Crawl-delay: 1
